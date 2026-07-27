@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model & data (too large for git — download/train separately)
+model/*.h5
+model/*.keras
+dataset/raw/
+dataset/train/
+dataset/val/
+dataset/test/
+*.zip
+
+# Database
+database/*.db
+
+# Uploaded images
+static/uploads/*
+!static/uploads/.gitkeep
+static/reports/*
+!static/reports/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# TensorBoard
+tensorboard_logs/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
